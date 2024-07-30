@@ -1,4 +1,9 @@
-let blog = [];
+const {MongoClient} = require("mongodb");
+const {MONGO_URI} = require("../env");
+const {BLOG_DB, BLOGS_COL} = require("../constants");
+
+
+// let blog = [];
 
 const createBlog = (req, res) => {
     // console.log(req.body);
