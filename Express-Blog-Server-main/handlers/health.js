@@ -1,6 +1,7 @@
-const Health =  (req, res) => {
+const health = (_req, res) => {
     res.send("OK");
-};
-module.exports = {
-    Health
-}
+  };
+  
+  module.exports = {
+    health,
+  };
